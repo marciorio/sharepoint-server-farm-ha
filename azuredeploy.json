@@ -26,14 +26,16 @@
 			"allowedValues": [
 				"West US",
 				"East US",
+				"South Central US",
 				"West Europe",
 				"East Asia",
+				"Brazil South",
 				"Southeast Asia"
 			],
 			"metadata": {
 				"Description": "The region to deploy the resources into"
 			},
-			"defaultValue":"West Europe"
+			"defaultValue":"Brazil South"
 		},
 		"virtualNetworkName": {
 			"type": "string",
@@ -204,28 +206,28 @@
 			"metadata": {
 				"Description": "The name of the VM Image to create the AD VMs from"
 			},
-			"defaultValue": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-201503.01-en.us-127GB.vhd"
+			"defaultValue": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161214-en.us-127GB.vhd"
 		},
 		"sqlImageName": {
 			"type": "string",
 			"metadata": {
 				"Description": "The name of the VM Image to create the SQL VMs from"
 			},
-			"defaultValue": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2048.0-Ent-ENU-Win2012R2-cy15su04"
+			"defaultValue": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2430.0-Ent-ENU-Win2012R2-cy14su11"
 		},
 		"witnessImageName": {
 			"type": "string",
 			"metadata": {
 				"Description": "The name of the VM Image to create the Witness VM from"
 			},
-			"defaultValue": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-201503.01-en.us-127GB.vhd"
+			"defaultValue": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20161214-en.us-127GB.vhd"
 		},
 		"spImageName": {
 			"type": "string",
 			"metadata": {
 				"Description": "The name of the VM Image to create the SP VMs from"
 			},
-			"defaultValue": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2013-Trial-1-20-2015"
+			"defaultValue": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2013-Trial-9-13-2016"
 		},
 		"vmContainerName": {
 			"type":"string",
